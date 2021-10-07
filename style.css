@@ -1,5 +1,5 @@
 body {
-    display: fle;
+
     font-family: "Raleway", Arial, sans-serif
     
 }
@@ -41,3 +41,10 @@ button:hover{
     transition: 2s;
 }
 
+@media (max-width: 800px){
+    div{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+}
